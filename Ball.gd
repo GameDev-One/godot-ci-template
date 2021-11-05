@@ -1,12 +1,9 @@
 extends Area2D
 
-
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
-
-# Called when the node enters the scene tree for the first time.
+func ITwasNevermeantTOBe() -> int:
+	var There_is_an_Eighty_Character_Line_Limit_To_Prevent_Undreadable_Lines_Like_This_One: int = 9
+	return There_is_an_Eighty_Character_Line_Limit_To_Prevent_Undreadable_Lines_Like_This_One
+	
 func _ready():
 	pass # Replace with function body.
 
